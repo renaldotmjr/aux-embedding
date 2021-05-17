@@ -1,0 +1,35 @@
+#
+# Title: NaCl UC with 8 atoms. Rep. 71x71x71
+#
+
+PW_OUT NaCl_8.xsf
+
+AUXIS AUXIS_EMB deMon
+
+INTEGRATION 1.0D-12
+
+UNIT ANGSTROM
+
+FITTESTS NO
+
+EQUIVALENCE SAMEEQ
+
+GENDENSITYCUBE
+
+GENDEMONCUBE NaCl71_deMon.cub
+
+REPLICATION
+ -35 35
+ -35 35
+ -35 35
+
+TAKEUCOUT 1
+ 0 0 0
+
+# 1 0 0
+# 0 1 0
+# 0 0 1
+# 1 1 0
+# 0 1 1
+# 1 0 1
+# 1 1 1
